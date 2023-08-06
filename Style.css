@@ -1,1 +1,11 @@
+:root{
+    --background_dark: #131313;
+    --background_light: #fff;
+    --primary_color: #D61D52;
+    --Light_color: #D6CB33;
+    --Dark_color: #09A5D6;
 
+}
+.container{
+    background-color: var(--background_dark);
+}
