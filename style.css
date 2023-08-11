@@ -1,0 +1,114 @@
+:root{
+	/*The project color*/
+	/*dark color*/
+	--bgd:#131313;
+	--bgrd:#333333;
+	--txtd:#fff;
+	--titled:#D61D52;
+	--reald:#09A5D6;
+    /*light color*/
+    --bgl:#fff;
+    --bgrl:#aaa;
+    --txtl:#131313;
+    --titlel:#D61D52;
+    --reall:#FFFF00;
+	/*The title size*/
+	--tltxp:18pt;
+    --tltp:30pt;
+	--tltm:60pt;
+	--tltg:90pt;
+    /*The text size*/
+    --txt1:12pt;
+    
+}
+html[class="dark"]{
+	/*Values the project*/
+	--bg: var(--bgd);
+	--bgr: var(--bgrd);
+	--txt:var(--txtd);
+	--title:var(--titled);
+	--real:var(--reald);
+}
+html[class="light"]{
+	/*Values the project*/
+	--bg: var(--bgl);
+	--bgr: var(--bgrl);
+	--txt:var(--txtl);
+	--title:var(--titlel);
+	--real:var(--reall);
+}
+body{
+	background:var(--bgr);
+    width: auto;
+    height: auto;
+	color:var(--txt);
+    display: block;
+}
+.container{
+	background: var(--bg);
+	opacity:0.9;
+	width: 80rem;
+	height: 120rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1,h2,h3{
+	color:var(--title);
+	text-align:center;
+	font-family:LEMON MILK;
+}
+h1{
+	font-size:var(--tltg);
+	margin-top:-2%;
+	font-style:"Bold";
+}
+h2{
+	font-size:var(--tltm);
+	
+}
+h3{
+	font-size:var(--tltp);
+}
+h4{
+	border-bottom: 0.3rem solid var(--txt);
+	margin-left: 1rem;
+	font-size:var(--tltxp);
+    color: var(--txt);
+}
+h5{
+	font-size:var(--tltxp);
+    margin-left: 1rem;
+    color:var(--txt);
+    font-family: 'Times New Roman', Times, serif;
+}
+p, li{
+    margin-left: 1rem;
+    color:var(--txt);
+    font-size: var(--txt1);
+}
+.Login{
+	background:var(--bgr);
+	width:300px;
+	height:350px;
+	margin-left:50rem;
+	margin-right:50rem;
+}
+input[type='email']:focus{
+	background:none;
+	border:none;
+	border-bottom: 0.1rem solid var(--real);
+	color:var(--txt);
+	width:300px;	
+}
+button{
+	color: var(--title);
+	background-color: var(--bg);
+	width: 10rem;
+	height: 2rem;
+	margin-left: 45%;
+	margin-right: auto;
+}
+a{
+	text-decoration: none;
+	color: var(--txt);
+}
