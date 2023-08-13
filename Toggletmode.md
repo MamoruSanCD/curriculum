@@ -9,8 +9,8 @@ A class que deferi para minhas tags foram,
 *"tmode" para o Label
 *"toggle" para o input
 *No index usei o atributo name e coloquei o nome de "theme"
-<label class="tmode">
+"<label class="tmode">
     <input type="checkbox" name="theme" checked>
     <span class="toggle"></span>
-</label>
+</label>"
 Deixando meu código assim
