@@ -11,4 +11,8 @@ A class que deferi para minhas tags foram,
 *"toggle" para o input
 *No index usei o atributo name e coloquei o nome de "theme"
 
+### O código fica assim
+![image](https://github.com/MamoruSanCD/curriculum/assets/105603566/6de7a5cf-aa76-4bad-a639-f6e5b0e05d97)
+
+
 
