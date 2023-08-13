@@ -7,11 +7,13 @@ No documento HTML ou PHP, depende do tipo de site que está fazendo, colocaremos
 Essas class podem receber o nome que achar melhor, mas lembre que nunca se deve repetir o nome de uma class para outro elemento que não tenha a mesma função.
 
 A class que deferi para minhas tags foram, 
-*"tmode" para o Label
-*"toggle" para o input
-*No index usei o atributo name e coloquei o nome de "theme"
 
-### O código fica assim
+* "tmode" para o Label
+* "toggle" para o input
+* No index usei o atributo name e coloquei o nome de "theme"
+
+**O código fica assim**
+
 ![image](https://github.com/MamoruSanCD/curriculum/assets/105603566/6de7a5cf-aa76-4bad-a639-f6e5b0e05d97)
 
 
